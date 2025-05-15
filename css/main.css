@@ -1,21 +1,23 @@
 .container {
     background-color: #d4ffff;
-    display: block;
-    margin: 0 auto;
+    margin: 0;
 }
 
 .link {
     background-color: #3951c6;
     display: flex;
-    flex-direction: row;
+    justify-content: start;
+    margin: 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
 }
 
 .content {
     display: flex;
     flex-direction: column;
     padding: 10px;
-}
-.nav > a {
-    text-decoration: none;
-    justify-content: flex-end;
 }

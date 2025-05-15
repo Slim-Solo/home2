@@ -18,7 +18,8 @@
   },
   "homepage": "https://github.com/Slim-Solo/home2#readme",
   "devDependencies": {
-    "dead-server": "^1.0.9"
+    "dead-server": "^1.0.9",
+    "lite-server": "^2.6.1"
   },
   "dependencies": {
     "accepts": "^1.3.8",
