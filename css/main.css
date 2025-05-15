@@ -1,0 +1,21 @@
+.container {
+    background-color: #d4ffff;
+    display: block;
+    margin: 0 auto;
+}
+
+.link {
+    background-color: #3951c6;
+    display: flex;
+    flex-direction: row;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.nav > a {
+    text-decoration: none;
+    justify-content: flex-end;
+}
